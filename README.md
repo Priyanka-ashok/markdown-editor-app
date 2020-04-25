@@ -8,3 +8,5 @@ Follow below steps to run the app :
 5. Live at the `localhost:3000`
 
 ## Deployed at
+
+https://agitated-yonath-cc9bcc.netlify.app/
