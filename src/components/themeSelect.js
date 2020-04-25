@@ -9,7 +9,8 @@ const Select = styled.select`
   border: 1px solid ${props => props.theme.light};
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  
+  font-family: ${props => props.theme.fontFamily};
+
   ${media.mobile`
   padding: 0;
     font-size: 0.6875em;

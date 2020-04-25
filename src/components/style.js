@@ -37,6 +37,7 @@ export const Editor = styled.div`
     padding: 0 0 0 10px;
     font-size: 0.937em;
     border: none;
+    font-family: ${props => props.theme.fontFamily};
   }
 `;
 
@@ -45,6 +46,7 @@ export const Previewer = styled.div`
     height: 100vh;
     padding: 0 0 0 30px;
     overflow-y: auto;
+    font-family: ${props => props.theme.fontFamily};
   }
   background-color: ${props => props.theme.light};
   color: ${props => props.theme.color};
