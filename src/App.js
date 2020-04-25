@@ -1,14 +1,10 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import MarkdownEditor from "./components/markDown";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Markdown-app
-      </header>
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return <MarkdownEditor />;
+  }
 }
 
 export default App;
